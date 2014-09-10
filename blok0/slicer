@@ -1,0 +1,22 @@
+#! /bin/bash
+#lame --decode mp3tje.mp3 | sox - nummer%1n.wav trim 0 30 : newfile : trim 30 60
+
+
+if [ $# -lt 3 ]; then
+  echo "$0: Usage: slicer filename numslices extension"
+else
+	X=$2
+	Y=`soxi -D $1`
+
+	Z=$((Y / $2))
+
+	echo $Y
+
+	while [ $X -gt 0 ]
+	do
+	  let X=X-1
+	  echo $X
+	done
+
+  sox $1 nummer%1n.$3 trim 0 30 : newfile : trim 30 60
+fi
