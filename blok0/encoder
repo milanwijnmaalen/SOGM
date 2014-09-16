@@ -1,0 +1,25 @@
+#! /bin/bash
+
+#SOGM opdracht 2
+#Shell scripting 8 november 2011 (I don't know)
+#http://www.dinkum.nl/software/shell/scripting/scripting_opdracht.pdf
+
+
+if [ $# -lt 2 ]; then
+  echo "$0: Usage: encoder originalextention destinationextention"
+else
+	read -p "Weet je het wel zeker? is wel gevaarlijk dit namelijk... (y/n)" -r
+	echo  
+	if [[ $REPLY =~ ^[Yy]$ ]]
+	then
+		mkdir -p converted
+		for file in *.$1;
+			do
+			X=`basename $file $1`
+			Y=${X::-1}
+			echo "Now converting $file to converted/$Y.$2"
+			sox $file converted/$Y.$2;
+		done
+	fi
+  
+fi
