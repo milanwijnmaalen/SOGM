@@ -6,16 +6,18 @@ if [ $# -lt 3 ]; then
   echo "$0: Usage: slicer filename numslices extension"
 else
 	X=$2
-	Y=`soxi -D $1`
+	Y=`soxi -D "$1"`
 
 	Z=`bc <<< "$Y / $2"`
+
+	V=`dirname "$1"`
 
 	while [ $X -gt 0 ]
 	do
 	  let X=X-1
 	  let W=X*$Z
-		expr $W + $Z
-		sox $1 nummer$X.$3 trim $W $Z
+		echo "Converting number $X to $V"
+		sox "$1" "$V/nummer$X.$3" trim $W $Z
 	done
 
   
