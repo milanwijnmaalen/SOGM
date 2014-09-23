@@ -5,19 +5,20 @@
 if [ $# -lt 3 ]; then
   echo "$0: Usage: slicer filename numslices extension"
 else
-	X=$2
-	Y=`soxi -D "$1"`
+	numslices=$2
+	numsamples=`soxi -s "$1"`
 
-	Z=`bc <<< "$Y / $2"`
+	slicelength=`bc <<< "$numsamples / $numslices"`
 
-	V=`dirname "$1"`
+	dir=`dirname "$1"`
 
-	while [ $X -gt 0 ]
+	while [ $numslices -gt 0 ]
 	do
-	  let X=X-1
-	  let W=X*$Z
-		echo "Converting number $X to $V"
-		sox "$1" "$V/nummer$X.$3" trim $W $Z
+	  let numslices=numslices-1
+	  let startsamp=numslices*$slicelength
+		echo "Converting number $numslices to $dir/nummer$numslices.$3"
+		sox "$1" "$dir/nummer$numslices.$3" trim $startsamp"s" $slicelength"s"
+
 	done
 
   
