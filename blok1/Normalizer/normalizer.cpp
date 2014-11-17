@@ -29,7 +29,8 @@ void normalize(float* dearray, int length)
 		}
 	}
 
-	cout << "Peek: " << temp << endl;
+	float dbfs = 20 * log10f(temp);
+	cout << "Peek: " << dbfs << "dBFS" << endl;
 
 	for (size_t i = 1; i < length; i++)
 	{
@@ -45,7 +46,6 @@ void normalize(float* dearray, int length)
 //argc = aantal argumenten, argv = waarden
 int main(int argc, char** argv)
 {
-	cout << argc;
 	if (argc < NUM_ARGS)
 	{
 		cout << "Argument 1: In filename, Argument 2: Outfilename." << endl;;
