@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{6F8C0C89-C351-8861-C7D4-95C0F856A110}") = "guitareffects", "guitareffects.vcxproj", "{CB605A80-A762-D051-E01F-8B1F197C286F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CB605A80-A762-D051-E01F-8B1F197C286F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CB605A80-A762-D051-E01F-8B1F197C286F}.Debug|Win32.Build.0 = Debug|Win32
+		{CB605A80-A762-D051-E01F-8B1F197C286F}.Release|Win32.ActiveCfg = Release|Win32
+		{CB605A80-A762-D051-E01F-8B1F197C286F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="xbvLuI" name="guitareffects" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.guitareffects" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="SFO9Sj" name="guitareffects">
+    <GROUP id="{684B49C1-EE7F-74A9-3AD1-75A5419E4519}" name="Source">
+      <FILE id="TrsuPv" name="amplifier.cpp" compile="1" resource="0" file="Source/amplifier.cpp"/>
+      <FILE id="C1FooP" name="amplifier.h" compile="0" resource="0" file="Source/amplifier.h"/>
+      <FILE id="FcfhlR" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="Yyzwal" name="AudioCallback.cpp" compile="1" resource="0"
+            file="../../../../Downloads/AudioCallback_JUCE/AudioCallback.cpp"/>
+      <FILE id="y17jvS" name="AudioCallback.h" compile="0" resource="0" file="../../../../Downloads/AudioCallback_JUCE/AudioCallback.h"/>
+      <FILE id="aDcG0r" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="NsrJz6" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="PfDO8B" name="delay.h" compile="0" resource="0" file="Source/delay.h"/>
+      <FILE id="GwicjI" name="distortion.cpp" compile="1" resource="0" file="Source/distortion.cpp"/>
+      <FILE id="o8LBt2" name="distortion.h" compile="0" resource="0" file="Source/distortion.h"/>
+      <FILE id="NmM5AA" name="delay.cpp" compile="1" resource="0" file="Source/delay.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="guitareffects"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="guitareffects"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="D:/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <LINUX_MAKE targetFolder="Builds/Linux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="guitareffects"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="guitareffects"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="D:/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="D:/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
