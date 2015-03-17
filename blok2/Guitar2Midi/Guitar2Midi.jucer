@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="qfH2Q5" name="Guitar2Midi" projectType="audioplug" version="0.0.1"
+              bundleIdentifier="com.milanwijnmaalen.Guitar2Midi" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="0" buildRTAS="0" buildAAX="0"
+              pluginName="Guitar2Midi" pluginDesc="Guitar2Midi" pluginManufacturer="Milan Wijnmaalen"
+              pluginManufacturerCode="MiWi" pluginCode="G2MI" pluginChannelConfigs="{1, 1}"
+              pluginIsSynth="0" pluginWantsMidiIn="0" pluginProducesMidiOut="1"
+              pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="Guitar2MidiAU" pluginRTASCategory="" aaxIdentifier="com.yourcompany.Guitar2Midi"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="3.1.0"
+              companyName="Milan Wijnmaalen" companyEmail="milan.wijnmaalen@student-kmt.hku.nl"
+              pluginVSTCategory="">
+  <MAINGROUP id="XX1dBS" name="Guitar2Midi">
+    <GROUP id="{29136249-8F9A-83CD-C61D-42FDDAB0C6AA}" name="Dspfilters">
+      <FILE id="GkBgSu" name="Bessel.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Bessel.cpp"/>
+      <FILE id="WTP4el" name="Biquad.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Biquad.cpp"/>
+      <FILE id="ynb41j" name="Butterworth.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Butterworth.cpp"/>
+      <FILE id="f2Lwi2" name="Cascade.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Cascade.cpp"/>
+      <FILE id="OaEznK" name="ChebyshevI.cpp" compile="1" resource="0" file="D:/DSPFilters/source/ChebyshevI.cpp"/>
+      <FILE id="SYT1a0" name="ChebyshevII.cpp" compile="1" resource="0" file="D:/DSPFilters/source/ChebyshevII.cpp"/>
+      <FILE id="KULUCn" name="Custom.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Custom.cpp"/>
+      <FILE id="PdPiAf" name="Design.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Design.cpp"/>
+      <FILE id="fn6iZn" name="Documentation.cpp" compile="1" resource="0"
+            file="D:/DSPFilters/source/Documentation.cpp"/>
+      <FILE id="BMO83u" name="Elliptic.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Elliptic.cpp"/>
+      <FILE id="OYQrhb" name="Filter.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Filter.cpp"/>
+      <FILE id="hiQR3W" name="Legendre.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Legendre.cpp"/>
+      <FILE id="USPnXi" name="Param.cpp" compile="1" resource="0" file="D:/DSPFilters/source/Param.cpp"/>
+      <FILE id="QX6Jl9" name="PoleFilter.cpp" compile="1" resource="0" file="D:/DSPFilters/source/PoleFilter.cpp"/>
+      <FILE id="ib9EZs" name="RBJ.cpp" compile="1" resource="0" file="D:/DSPFilters/source/RBJ.cpp"/>
+      <FILE id="W4xV45" name="RootFinder.cpp" compile="1" resource="0" file="D:/DSPFilters/source/RootFinder.cpp"/>
+      <FILE id="SvjStb" name="State.cpp" compile="1" resource="0" file="D:/DSPFilters/source/State.cpp"/>
+    </GROUP>
+    <GROUP id="{170BAEDC-4A11-AE66-0870-F32521889616}" name="Source">
+      <FILE id="b3FleR" name="audio2midi.cpp" compile="1" resource="0" file="Source/audio2midi.cpp"/>
+      <FILE id="JGzByr" name="audio2midi.h" compile="0" resource="0" file="Source/audio2midi.h"/>
+      <FILE id="AaEVVF" name="bandpassfilter.cpp" compile="1" resource="0"
+            file="Source/bandpassfilter.cpp"/>
+      <FILE id="XtFux3" name="bandpassfilter.h" compile="0" resource="0"
+            file="Source/bandpassfilter.h"/>
+      <FILE id="l5Bm7m" name="onset.cpp" compile="1" resource="0" file="Source/onset.cpp"/>
+      <FILE id="hnSeXM" name="onset.h" compile="0" resource="0" file="Source/onset.h"/>
+      <FILE id="j1FpUP" name="meter.cpp" compile="1" resource="0" file="Source/meter.cpp"/>
+      <FILE id="dAbJs7" name="meter.h" compile="0" resource="0" file="Source/meter.h"/>
+      <FILE id="HUj9vA" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="FQdw8s" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="Zjjtvg" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="b2MlsU" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2013 targetFolder="Builds/VisualStudio2013" vstFolder="D:\SDKs\VST3 SDK"
+            vst3Folder="D:\SDKs\VST3 SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Guitar2Midi" headerPath="D:\DSPFilters\include; D:\DSPFilters\source"
+                       libraryPath="D:\DSPFilters\source; D:\DSPFilters\include\DspFilters"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="Guitar2Midi"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_events" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_cryptography" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_video" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_opengl" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="D:/JUCENIEUW/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <LINUX_MAKE targetFolder="Builds/Linux" vstFolder="~/SDKs/vstsdk2.4" vst3Folder="~/SDKs/VST3 SDK">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="Guitar2Midi"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="Guitar2Midi"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_opengl" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_graphics" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_events" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_data_structures" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_cryptography" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_core" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="D:/JUCENIEUW/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="D:/JUCENIEUW/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>

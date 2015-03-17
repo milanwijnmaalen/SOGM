@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FILTERGRAPH>
+  <FILTER uid="1" x="0.5" y="0.1" uiLastX="0" uiLastY="0">
+    <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="Raw Material Software" version="1.0" file="" uid="246006c0"
+            isInstrument="0" fileTime="0" numInputs="0" numOutputs="2" isShell="0"/>
+    <STATE>0.</STATE>
+  </FILTER>
+  <FILTER uid="2" x="0.25" y="0.1" uiLastX="0" uiLastY="0">
+    <PLUGIN name="Midi Input" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="Raw Material Software" version="1.0" file="" uid="cb5fde0b"
+            isInstrument="0" fileTime="0" numInputs="0" numOutputs="0" isShell="0"/>
+    <STATE>0.</STATE>
+  </FILTER>
+  <FILTER uid="3" x="0.5" y="0.9" uiLastX="0" uiLastY="0">
+    <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="Raw Material Software" version="1.0" file="" uid="724248cb"
+            isInstrument="0" fileTime="0" numInputs="0" numOutputs="0" isShell="0"/>
+    <STATE>0.</STATE>
+  </FILTER>
+  <FILTER uid="4" x="0.178" y="0.3125" uiLastX="86" uiLastY="34">
+    <PLUGIN name="Retrologue" format="VST" category="Synth" manufacturer="Steinberg Media Technologies"
+            version="V1" file="C:\Program Files (x86)\Steinberg\VSTPlugins\Retrologue\Retrologue.dll"
+            uid="52455452" isInstrument="1" fileTime="137bac78150" numInputs="0"
+            numOutputs="2" isShell="0"/>
+    <STATE>1273.K41XCA.....ZCIjQ....AHUQTIE...P....................................................................................................................................................................................AYU2.........TC........fg.D.HC...fj1....dd0mkM6F0v.wwSKPof.tvKPui5RhyGN4X19wIDT0VINGp11tRsapxtqfmm9ZvAdj3U.+2NS7L1q3v1j4Wr87eFOdb2KII4CleWtXyP+C82scwo82jrexAI6Ynu176otgtGWaQOaL227KM4vwm3uYFqWZdVT3rUFaLwuc6sI+82+An7XzownBC5Pyy5zYYZcgcwJGYeoa8FZbUFxAXpqHh1Pdq44W6Gdr6AhVONtrJhzLR9TNQZGIGOQlKBtSLVuxtVlO+BrXH3kDj..IchfTfaMrlH7g7tZ4p6dXwznn30f8PDvrohXkYh.ElYNSDgH0mkN9cJ.coFfTQ5UEoWkTupcqWEzK1xtp6mSLobUR4pjxUA4BGWlNqzQfdYUAfkCA+NyKWOrri6+bna7Roa0yCJzrLH82Xd462ubielP47YBUGNSHc9Xf1CFSAjF1wtd6OlV7BHKaI5ElLDAg1vFgRkNt2T.o4yMEPSLSYhrPlHKfXfON4nirEpiBkOlRnCuYE9JzeV9rLSolkQRMqtZVVZiCBoxKhpfPwnTEpYMMUNnTtUz4RkdVdidbLPzhUhjsXTnJfsRnDvapoTL+PgVFZZpb0UVootKYedJ+qoZU1tmFZF0Fmubv0LAz5c4vZoCqkNrdGNrdGNrdmNrUts0JcUq7nXqrnoUtKzJKZZkEMszouQSYduUl2aQiPlouKn0DsAYln4My7Lo44By4x3cNccAUjLWFwyQDSemd5ZGcx88CaWi7niy5G3.9sImsO44ro1.MDHnOfCxZD3.AcBbPjMY0.V34Hxeu4sKLMNO9h9U2QeRYChfEQYi.e6ZGiNNVNF+pI+ybkxFa3MzJ0QPzgtqpxIDhOfZPSHGhhNkaL4JrwiwbLs14Jr4Gfn6AYHTDLcMhCgBAIx15UNQa22.DTU.BQcvZQ2evPjGYSDaBRjsuc.RbInCgLe.h7Hah3bS.JNEVPoP1ZQoPOpj7nehkXeM.EmBKoTHasnTHCEuoURaZLTbJrjRg90xdcR.JdSy1vO.EmBss7CVKJE5Q1aBjSzdOP.JNEZuOHXsnTHCAO9wD7+LtYwQm8qmFVrd8x9oCh453SAZjPw46KWrteU2parWX39DkXy7n3SC1aI9eN0dkgzo0HMaa+scSuu4Qdc7AjZwAj+A58tFug.D.H3YEMRL....Bw....340XhAFXPTf3.RrnDyM0RRsHGKt3LSOubSMuRJlAlXfMFXDnjLCD6ryv4xGPLBkEbpk.VFl.JJHrAv4wKHskedkTT94jSpE4oK.0L6L.1DXfGf3DwhMgv.XEHK1gaQLvACR.jiCYlWwknuCEmS9kXkA56PloXkglyv6289Ao3PprfTgX3fAr.D6al4AlFIQRrB3h7A6YCHoykVTYohjp.4BLDedAtn5dAKnxdAA.hCnn7SozjAE4TRl4kNDWGH..Y6ZSpC</STATE>
+  </FILTER>
+  <FILTER uid="6" x="0.624" y="0.619141" uiLastX="333" uiLastY="9">
+    <PLUGIN name="Retrologue" format="VST" category="Synth" manufacturer="Steinberg Media Technologies"
+            version="V1" file="C:\Program Files (x86)\Steinberg\VSTPlugins\Retrologue\Retrologue.dll"
+            uid="52455452" isInstrument="1" fileTime="137bac78150" numInputs="0"
+            numOutputs="2" isShell="0"/>
+    <STATE>1256.K41XCA.....ZCIjQ....AHUQTIE...P....................................................................................................................................................................................AHQ1.........TC........fg.D.HC...ff0....dd0mUM61z.AgcKPof.tvKPuiRwd8OqyQmzlSHnpsRb1Tk1Fo13JmDAOO80fC7Hwq.62td7NytQbH0d97ty7Meyry1CRRR9f42kK2128P2c6VdV2MIGlbTxAFzWa98Tae6iarPOaLOz7KM43gm3uYFqWZdVT3rUFarwuc6sI+82+AP4wPmECUXfN17rN8zLstv5rxAruztYKstJCxQXqqIDsA4slmesq+w1GHz5g0kUQHSGP9TNgzLfLYDYlH4lardk0WlO+B3Lj7RDH..IcDARfyGVSj9fdWsZ8cOrbbUHegDbU6OGwP9x1IRUlIxSXl4LQBBkOKc36T94TF.ohnqJhtJIcU6mtp8PWkjtJIcUR5p.cQfKSOszg.9xZB.VNH76Lubc+pVd7yAuwKkNumGzmYw.0ei4kue+ps9cBly2IXc3NA04qAbOXMEfZnY75c+Xz4EfV1NzKLJDABtgBgRkNTaJ.07ZSA3DyTJjERgr.jAwX9ImX6SGHJeMkfGdyJ4WqHVpzmlOUW4.AK48OUfiQqRxzJ5DoXMfuBOQLVrJz.v7Dp9dSMotl1tQ0UKyJM0o55nzzbkrOOJ8ZpMkU3zfynsXwpd2XDfVuu.VKCXsLf06If06If06MfMxZRiLTMxSgMx9kFYUnQ1uzH6WZnCdClRcuQp6MXDHyzO+yZhAfLSL1lYdtzbgvblLemQWTPMIyjY7Ljwz2omtIQyuuqe2FniNb1n.GfuL4r8hmyll.Lk.BFA3.Yy.b.ACAbfPMY8.VvEHyeu4sKLyLmbQ256nOorIQfST1LvOo1gQGGKGxe0X7YgRYyM7Flh5PP1gAqpxQHje.ZJl+3fnrS4VStBEdrlIjuyUn3G.Q2.xfPSv3MHNHzHHgrSckazN3M.BrJ.BYcfunqNXPTDYaDEAIjcjc.j39OGDT9.HJhrMhyMAPwRXAIgLeQRnGpjhneikntF.EKgkjDx7EIgLn3hVIUzXPwRXIIgdeYuII.JtnYG3G.EKg1Q9A9hjPOj8l.4Fs2CD.EKg16CB7EIgLHDwOlf+awsKO47e8T+xMaV0MdPLWGeJPCAEmuub4lt0squwdgg6Sjvl4ghOMXuk3+ET6UFxfVCY1N9a21N+vi753CH0hCH+CfE51plFBP.ffmUzHw....HDC...fmWiIFXfAQAhCHwhRL2TKI0hbr3hyL87xM07JoXFXhA1XfQfRxLPryNCmKe.wHTVvoVBXYXBnnfvF.mGufzV94URQ4mSNoVjmt.Tyry.XSfAd.hSDK1DBCfUfrXGtEw.GLHAPNNjYdEWh9NTbN4WhUFnuCYlhUFZNCue26GjhCoxBREhgCFvBPruYlGXZjDIwJfKxGrmMfjNWZQkkJRpBjKvP74E3hp6ErfJ6ED.HNfhxOkRSFTjSIYlW5Pbcf..jsqMoN</STATE>
+  </FILTER>
+  <FILTER uid="9" x="0.34" y="0.425781" uiLastX="302" uiLastY="168">
+    <PLUGIN name="Guitar2Midi" format="VST" category="Effect" manufacturer="Milan Wijnmaalen"
+            version="V1" file="C:\Users\Milan\Google Drive\HKU\SOGM\git\blok2\Guitar2Midi\Builds\VisualStudio2013\Debug\Guitar2Midi.dll"
+            uid="47324d49" isInstrument="0" fileTime="14c1009156f" numInputs="1"
+            numOutputs="1" isShell="0"/>
+    <STATE>160.K41XCA.....ZCIjQ....AbjLMkD...P.....A.................................................................................................................................................................................</STATE>
+  </FILTER>
+  <CONNECTION srcFilter="2" srcChannel="4096" dstFilter="4" dstChannel="4096"/>
+  <CONNECTION srcFilter="4" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="4" srcChannel="1" dstFilter="9" dstChannel="0"/>
+  <CONNECTION srcFilter="6" srcChannel="0" dstFilter="3" dstChannel="1"/>
+</FILTERGRAPH>
